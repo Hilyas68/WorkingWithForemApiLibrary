@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lb8WG43OjWZo6BCUdf8iVi7hj3byIXOohWxPi1dIrH8i8NSeZyt0IgrrSqipPIIEn/QCe88BK9VpTdmPEwaWTw==",
+  "success": true,
+  "projectFilePath": "C:\\Repo\\personal\\WorkingWithForemApiLibrary\\WorkingWithForemApiLibrary\\WorkingWithForemApiLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hassan.liasu\\.nuget\\packages\\forem.api\\0.4.0\\forem.api.0.4.0.nupkg.sha512",
+    "C:\\Users\\hassan.liasu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\hassan.liasu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
