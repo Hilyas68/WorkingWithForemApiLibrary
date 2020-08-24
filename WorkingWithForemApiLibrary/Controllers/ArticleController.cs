@@ -26,7 +26,7 @@ namespace WorkingWithForemApiLibrary.Controllers
         public async Task<IActionResult> GetAllArticles(int page, int itemPerPage)
         {
             var articlesService = new ArticlesService(new Uri("https://dev.to/"), new HttpClient());
-            return Ok(await articlesService.GetArticlesAsync(page, itemPerPage));
+            return Ok(await _articlesService.GetArticlesAsync(page, itemPerPage));
         }
     }
 }

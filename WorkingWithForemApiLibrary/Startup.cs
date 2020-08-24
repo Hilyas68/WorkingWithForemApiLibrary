@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,6 +27,11 @@ namespace WorkingWithForemApiLibrary
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddForemApi(new Uri("https://dev.to/"));
+            services.AddHttpClient();
+            services.AddTransient(provider =>
+            {
+                return provider.GetRequiredService<IHttpClientFactory>().CreateClient(string.Empty);
+            });
             services.AddControllers();
         }
 
